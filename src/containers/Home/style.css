@@ -1,0 +1,21 @@
+.gallaryDesign{
+    display: flex;
+    justify-content: space-between;
+}
+.sideImageDesigns div{
+    width: 100%;
+}
+.sideImageDesigns div img{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+}
+.leftImage{
+    margin-left: 1px;
+    padding-bottom: 1px;
+}

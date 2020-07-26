@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #565673;
+    letter-spacing: 1.2px;
+}
+.headerMenu a:hover{
+    color: rgb(251, 251, 251);
+}
+
+/* design for icon */
+.headerMenuIcon a{
+    display: inline-block;
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #565673;
+}
+.headerMenuIcon a:hover{
+    color: rgb(251, 251, 251);
+}

@@ -1,0 +1,126 @@
+.sideBarContainer{
+    width: 27%;
+}
+.cardHeader{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #333;
+}
+.cardDesigns{
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(140, 201, 156);    
+}
+
+/* cardHeader Icon */
+.cardHeaderIcon{
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0px 0px 0px;  
+}
+.sideIcon{
+    padding-bottom: 2px;
+}
+
+.SideImageDesign{
+    width: 100%;
+    box-sizing: border-box;
+}
+.SideImageDesign img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px 0;
+}
+.aboutDesign{
+    color: #565673;
+    font-size: 14px;
+    font-weight: 300;
+}
+.recentPost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.recentPost h3{
+    font-weight: 500;
+    color: #6c6c6c;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0;
+}
+.recentPost span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+.recentPosts{
+    padding: 0px 0;
+}
+
+@media (max-width: 575.98px) {
+    .cardHeader{
+        text-transform: uppercase;
+        font-size: 10px;
+        /* text-align: center; */
+        box-sizing: border-box;
+        letter-spacing: .1px;
+        color: #333;
+    }
+    .cardHeaderIcon{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        
+    }
+    .sideIcon{
+        margin-top: 5px;
+    }
+    .SideImageDesign img{
+        margin: 10px 0;
+    }
+    .aboutDesign{
+        color: #565673;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .cardDesigns{
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        background-color: rgb(140, 201, 156);    
+    }
+}
+@media (min-width: 576px) {
+    .cardHeader{
+        text-transform: uppercase;
+        font-size: 11px;
+        text-align: center;
+        box-sizing: border-box;
+        letter-spacing: .2px;
+        color: #333;
+    }
+    .cardHeaderIcon{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px 10px 5px;
+        
+    }
+    .sideIcon{
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    
+}
+@media (min-width: 992px) {
+    .cardHeader{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        box-sizing: border-box;
+        letter-spacing: 2px;
+        color: #333;
+    }
+}

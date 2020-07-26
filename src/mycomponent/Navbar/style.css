@@ -1,0 +1,34 @@
+.navbar{
+    padding: 10px 0;
+}
+.navbar ul{
+    margin: 0;
+    padding:0;   
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+}
+.designInput{
+    width: 0;
+    border: 0;
+    transition: width 0.1s ease-in;
+    background-color: rgb(140, 201, 156);
+}
+.designInput.active{
+    width: 160px;
+    margin-right: 5px;
+    font-style: italic;
+}
+.designInput:focus{
+    outline: none;
+}

@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(20, 187, 187);
+  font-family: 'Oswald', sans-serif;
+}
+.App{
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .App{
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 576px) {
+  .App{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .App{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+
