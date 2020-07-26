@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import BlogPost from '../../mycomponent/BlogPost';
-import SideBar from '../../mycomponent/SideBar';
 import Layout from '../../mycomponent/Layout';
 
 

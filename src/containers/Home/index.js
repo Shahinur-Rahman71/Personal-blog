@@ -19,7 +19,7 @@ const ImageGallary = props => (
 
         <section style={{ width: props.largeWidth }}>
             <div style={{height: '450px'}}>
-                <img style={{ width: '100%',height: '100%'}} src={require('../../BlockImage/'+props.imagesArray[0])} />
+                <img style={{ width: '100%',height: '100%'}} src={require('../../BlockImage/'+props.imagesArray[0])} alt="gallaryImage"/>
             </div>
         </section>
 

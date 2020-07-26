@@ -21,12 +21,12 @@ const BlogPost = (props) => {
 
     useEffect(()=>{
         const slug = props.match.params.slug;
-        const posts=blogData.data.find(post=>post.slug==slug);
+        const posts=blogData.data.find(post=>post.slug===slug);
         setPost(posts);
         setSlug(slug);
     },[post,props.match.params.slug]);
 
-    if(post.blogImage=="") return null;
+    if(post.blogImage==="") return null;
 
     return (
         <div className="blogPostDesign">

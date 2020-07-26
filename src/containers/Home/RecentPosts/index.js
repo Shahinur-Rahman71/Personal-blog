@@ -9,7 +9,7 @@ const RecentPosts = (props) => {
             <Card style={{ marginBottom: '20px' }}>
 
                 <div className="postImageWrapper">
-                    <img style={{ width: '100%' }} src="https://s3.india.com/wp-content/uploads/2018/08/Ladakh-4-shutterstock_304846103-1.jpg" />
+                    <img style={{ width: '100%' }} src="https://s3.india.com/wp-content/uploads/2018/08/Ladakh-4-shutterstock_304846103-1.jpg" alt="RecentImage"/>
                 </div>
 
                 <div style={{ textAlign: 'center' }}>
